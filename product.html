@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>All Products NM Shopping site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./Images/logo.png" alt="logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="./Images/cart.png" alt="cart" width="30px" height="30px"></a>
+            <img src="./Images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+</div>
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Products Available</h2>
+        <select>
+            <option>Default</option>
+            <option>By rating</option>
+            <option>By price</option>
+            <option>By sale</option>
+            <option>By popularity</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="details.html"><img src="./Images/product1.jpg" alt="p1" height="300px" width="200"></a>
+            <a href="details.html"><h4>Black Tees</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$110.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="./Images/product2.jpg" alt="p1" height="300px" width="200">
+            <h4>Pink Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$150.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="./Images/product3.jpg" alt="p1" height="300px" width="200">
+            <h4>White Male Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$210.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="./Images/product4.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img src="./Images/product5.jpg" alt="p1" height="300px" width="200">
+            <h4>Black Tees</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$110.0</p>
+        </div>
+    
+        <div class="col-4">
+            <img src="./Images/product6.jpg" alt="p1" height="300px" width="200">
+            <h4>Pink Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$150.0</p>
+        </div>
+    
+        <div class="col-4">
+            <img src="./Images/product7.jpg" alt="p1" height="300px" width="200">
+            <h4>White Male Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$210.0</p>
+        </div>
+    
+        <div class="col-4">
+            <img src="./Images/product8.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product9.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product10.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product11.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product12.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product13.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product14.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product15.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+        <div class="col-4">
+            <img src="./Images/product12.jpg" alt="p1" height="300px" width="200">
+            <h4>Female White Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140.0</p>
+        </div>
+    </div>
+
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="./Images/logo.png" alt="logo">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Informative Links</h3>
+                    <ul>
+                        <li>Help</li>
+                        <li>Return policy</li>
+                        <li>Affiliate Program</li>
+                        <li>Patnership</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Social Accounts</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Telegram</li>
+                        <li>Twitter</li>
+                        <li>WhatsApp</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy">Designed and Developed by Justus Egbuchulam</p>
+        </div>
+    </div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else 
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>
